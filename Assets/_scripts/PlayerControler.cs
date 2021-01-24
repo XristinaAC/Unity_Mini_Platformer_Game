@@ -119,8 +119,8 @@ public class PlayerControler : MonoBehaviour {
             {
                 DisablingImage();
                 gameOverL = true;
-                exitGameText.text = "To exit game press 'Esc'";
-                restartText.text = "Press 'R' for Restart";
+                exitGameText.text = "Press \'Esc\' to Exit'";
+                restartText.text = "Press \'R\' for Restart";
                 restartOrExit = true;
             }
            
@@ -163,8 +163,8 @@ public class PlayerControler : MonoBehaviour {
             con.ConfettiExplosion();
             winAudio.enabled = true;
             winAudio.Play();
-            exitGameText.text = "Press 'E' to Exit";
-            restartText.text = "Press 'R'to Restart";
+            exitGameText.text = "Press \'Esc\' to Exit";
+            restartText.text = "Press \'R\' to Restart";
             restartOrExit = true;
 
         }
